@@ -10,8 +10,7 @@
 
     <title>User rating!</title>
   </head>
-  <body style="background-image: url('https://s3.amazonaws.com/roostery-composites/compost/5652541/fabric-preview-swatch_0_m.jpg')">
-
+  <body style="background-image: url('https://cdn.wallpapersafari.com/23/50/P0rIL6.jpg'); background-size: cover;">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
       <a class="navbar-brand" href="{%url 'codes:index' %}"><img src="logo.jpg" alt="FlashMeM"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,17 +33,15 @@
     </nav>
     <br>
 
-    <h1>{{ question.question_text }}</h1>
+    <div class="card text-white bg-warning mx-auto text-center w-50">
+    <h5 class="card-header">{{ question.question_header }}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{ question.question_text }}</h5>
+      <p class="card-text">Rating of the question is: {{ question.user_rating }}</p>
+        <a class="btn btn-primary" href="{% url 'codes:detail' question.question_index %}" role="button">Vote again?</a>
+      </div>
+    </div>
 
-    <ul>
-
-        <li>{{ question.user_rating }}</li>
-
-    </ul>
-
-    <a class="btn btn-primary" href="{% url 'codes:detail' question.question_index %}" role="button">Vote again?</a>
-
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
