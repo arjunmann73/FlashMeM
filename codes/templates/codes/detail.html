@@ -10,11 +10,10 @@
 
     <title>{{ question.question_header }}</title>
   </head>
-  <body style="background-image: url('https://s3.amazonaws.com/roostery-composites/compost/5652541/fabric-preview-swatch_0_m.jpg')">
-
+  <body style="background-image: url('https://cdn.wallpapersafari.com/23/50/P0rIL6.jpg'); background-size: cover;">
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="{%url 'codes:index' %}"><img src="logo.jpg" alt="FlashMeM"></a>
+      <a class="navbar-brand" href="{%url 'codes:index' %}"> <img src="bg.jpg" alt="FlashMeM" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,7 +34,7 @@
     </nav>
     <br>
 
-  <div class="card text-white bg-warning border-info text-center">
+  <div class="card text-white bg-warning mx-auto text-center w-50">
   <h5 class="card-header">{{ question.question_header }}</h5>
   <div class="card-body">
     <h5 class="card-title">{{ question.question_text }}</h5>
