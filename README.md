@@ -35,5 +35,5 @@ User can add, edit or delete questions using the admin site.
 
 ---
 
-## Authors
-@[arjunmann73]()
+## Author
+@[arjunmann73](https://github.com/arjunmann73)
