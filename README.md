@@ -1,2 +1,3 @@
 # FlashMeM
-Flashcards web application
+Flashcards web application.
+[!](images/GUI.png)
