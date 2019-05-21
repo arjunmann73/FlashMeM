@@ -16,12 +16,19 @@ A flashcard web app which has the feature of up-down voting a flashcard based on
 ---
 #### User interface - details of a flashcard
 Each flashcard has a header, question, answer a buttons to upvote or downvote the flashcard.
+
 ![](Images/details.png)
 
 ---
 
 #### User interface - rating of a flashcard
 User rating is the quantitative measure of how hard or easy the user finds flashcard.
+
 ![](Images/user_rating.png)
 
 ---
+
+#### Admin site
+User can add, edit or delete questions using the admin site. 
+
+![](Images/admin.png)
