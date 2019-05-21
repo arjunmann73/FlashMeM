@@ -1,3 +1,3 @@
 # FlashMeM
 Flashcards web application.
-[!](images/GUI.png)
+![](images/GUI.png)
