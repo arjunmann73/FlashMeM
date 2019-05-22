@@ -6,6 +6,10 @@ A flashcard web app which has the feature of up-down voting a flashcard based on
 
 ---
 
+## Getting Started (on local machine)
+1. Clone the repository locally. 
+2. Change directory to flashcards and run the following command: ''' python manage.py runserver '''
+
 ## Built with
 1. [Django](https://www.djangoproject.com/)
 2. [Jinja2](http://jinja.pocoo.org/)
